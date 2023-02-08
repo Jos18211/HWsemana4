@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "4fabccd8-078f-4d4f-8558-b139a634bb1e",
+		"name": "PeliculasAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generos",
+			"item": [
+				{
+					"name": "Listar Generos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:81/peliculas/genre",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "81",
+							"path": [
+								"peliculas",
+								"genre"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generos Pelicula",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:81/peliculas/genre/getGenreMovie/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "81",
+							"path": [
+								"peliculas",
+								"genre",
+								"getGenreMovie",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Peliculas",
+			"item": [
+				{
+					"name": "Obtener Pelicula",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:81/peliculas/movie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "81",
+							"path": [
+								"peliculas",
+								"movie"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
